@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>
+       {% block title %} MediaLand{% endblock title %}
+    </title>
+</head>
+<body>
+    <nav>
+            <a href="index.html">Inicio</a>
+            <a href="Catalogo/peliculas.html">Películas</a>
+            <a href= "Catalogo/series.html">Series</a>
+            <a href="Catalogo/opiniones.html"">Opiniones</a>
+    </nav>
+    <main>
+        {% block contenido %}
+        {% endblock contenido %}
+    </main>
+    <footer>
+        <p> MediaLand by Iván - 2025 </p>
+    </footer>
+</body>
+</html>

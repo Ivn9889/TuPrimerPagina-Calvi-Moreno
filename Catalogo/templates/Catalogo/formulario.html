@@ -1,0 +1,11 @@
+{% extends 'Main/padre.html' %}
+{% block contenido %}
+    <form action="" method-"POST">
+        {% csrf_token %}
+        <p>Nombre<p>
+        <input type = "text" name="Nombre" required>
+        <p>Genero<p>
+        <input type="number" name = "camada" required>
+        <input type-"submit" value = "Enviar"/>
+    </form>
+ {% endblock %}

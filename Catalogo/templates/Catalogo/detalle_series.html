@@ -1,0 +1,7 @@
+{% extends 'Main/padre.html' %}
+{% block title %}{{ serie.nombre }}{% endblock title %}
+{% block contenido %}
+    <h1>{{ serie.nombre }}</h1>
+    <p>Género: {{ serie.genero }}</p>
+    <p>Sinopsis: {{ serie.sinopsis }}</p>
+{% endblock contenido %}
